@@ -18,7 +18,7 @@ export const CartoonsList = () => {
       console.log(data)
   return (
     <div className='container'>
-        <h1>Cartoons</h1>
+        <h1>Carta de Vinos</h1>
         <div className='row'>
             {data && data.map((cartoon) => {
                 return (
